@@ -1,0 +1,31 @@
+{
+  "name": "react-material-template",
+  "version": "1.0.0",
+  "description": "Creative Tim's creative material template, transformed in react template by Ananda Rodrigues",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "npm test",
+    "start": "webpack-dev-server --hot"
+  },
+  "keywords": [
+    "react",
+    "material",
+    "template",
+    "free",
+    "theme",
+    "ananda"
+  ],
+  "author": "Ananda Rodrigues (ananda.mohini.dasi@hotmail.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  },
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  }
+}
