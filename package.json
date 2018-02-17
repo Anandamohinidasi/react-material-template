@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "npm test",
-    "start": "webpack-dev-server --hot"
+    "start": "webpack-dev-server --hot --inline"
   },
   "keywords": [
     "react",
@@ -21,8 +21,10 @@
   "author": "Ananda Rodrigues (ananda.mohini.dasi@hotmail.com)",
   "license": "MIT",
   "devDependencies": {
-    "webpack": "^3.8.1",
-    "webpack-dev-server": "^2.9.4"
+    "babel-loader": "^7.1.2",
+    "file-loader": "^1.1.6",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
   },
   "dependencies": {
     "react": "^16.0.0",
